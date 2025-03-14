@@ -1,9 +1,15 @@
+import React from 'react';
+import logo1 from '../Images/white-lm-logo.png';
+import './Footer.css';
+
 const Footer = (() => {
     return(
         <footer>
-            <img src="../Images/little-lemon-logo1" />
-            <div>
-                <h3>Doormat Navigation</h3>
+            <div className='footer-section'>
+                <img src={logo1} alt='Little Lemon footer logo' />
+            </div>
+            <div className='footer-section'>
+                <h3>Doormat<br/>Navigation</h3>
                 <ul>
                     <li>Home</li>
                     <li>About</li>
@@ -13,7 +19,7 @@ const Footer = (() => {
                     <li>Login</li>
                 </ul>
             </div>
-            <div>
+            <div className='footer-section'>
                 <h3>Contact</h3>
                 <ul>
                     <li>Adress</li>
@@ -21,7 +27,7 @@ const Footer = (() => {
                     <li>Email</li>
                 </ul>
             </div>
-            <div>
+            <div className='footer-section'>
                 <h3>Social Media Links</h3>
                 <ul>
                     <li>Adress</li>

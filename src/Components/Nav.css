@@ -1,0 +1,21 @@
+.nav {
+    display: flex;
+    justify-content: flex-end;
+    flex: 1;
+    font-family: karla;
+    font-style: bold;
+}
+
+.nav-list {
+    list-style: none;
+    display: flex;
+    margin: 0;
+    padding: 0;
+    gap: 2rem;
+}
+
+.nav-item a {
+    color: #333;
+    text-decoration: none;
+    padding: 0.5rem 1rem;
+}
