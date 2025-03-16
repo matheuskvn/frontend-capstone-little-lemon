@@ -1,5 +1,74 @@
 main {
-    flex: 1;
-    padding-top: 70px;
-    flex-grow: 1;
-  }
+  flex: 1;
+  margin-top: 5px;
+  flex-grow: 1;
+}
+
+.hero-section {
+  background-color: #495E57;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 20px;
+  flex-direction: row;
+}
+
+.hero-image {
+  flex: 1;
+  max-width: 50%;
+  display: flex;
+  justify-content: flex-end;
+  margin-right: 100px;
+}
+
+.hero-image img {
+  width: 300px;
+  border-radius: 16px;
+  margin-right: 300px;
+  box-shadow: 10px 10px 10px rgb(0, 0, 0, 0.2);
+}
+
+.hero-section h1 {
+  font-size: 2.5rem;
+  color: #F4CE14;
+  margin: 0 0 10px 0;
+}
+
+.hero-section h2 {
+  font-size: 1.8rem;
+  color: white;
+  margin: 0;
+}
+
+.hero-section p {
+  flex: 1;
+  max-width: 50%;
+  padding-right: 20px;
+  color: white;
+}
+
+.hero-section button {
+  background-color: #F4CE14;
+  color: black;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 5px;
+  font-size: 1rem;
+  font-weight: bold;
+  cursor: pointer;
+}
+
+.hero-section .text-content {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: space-between;
+  flex: 1;
+  max-width: 50%;
+  gap: 30px;
+  margin-left: 350px;
+}
+
+.hero-section .title-subtitle {
+  gap: 0;
+}
