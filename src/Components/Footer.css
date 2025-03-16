@@ -2,10 +2,12 @@ footer {
     display: flex;
     justify-content: space-between;
     align-items: flex-start;
-    padding: 20px;
     width: 100%;
     color: white;
     font-family: Karla;
+    background-color: #495E57;
+    text-align: center;
+    padding: 1rem;
 }
 
 .footer-section {
@@ -38,4 +40,46 @@ footer img {
     margin-bottom: 5px;
     font-size: 0.9rem;
     text-align: left;
+}
+
+@media (max-width: 768px) {
+    footer {
+        flex-direction: row;
+        align-items: center;
+        padding: 1rem;
+    }
+
+    .footer-section {
+        margin: 0.rem 0;
+        text-align: center;
+    }
+
+    footer img {
+        max-width: 200px;
+        height: auto;
+    }
+}
+
+@media (max-width: 450px) {
+    footer {
+        padding: 0.5rem;
+    }
+
+    .footer-section {
+        margin: 0.5rem 0;
+        width: 100%;
+        text-align: center;
+    }
+
+    footer img {
+        display: none !important;
+    }
+
+    .footer-section h3 {
+        font-size: 1rem;
+    }
+
+    .footer-section ul li {
+        font-size: 0.8rem;
+    }
 }
