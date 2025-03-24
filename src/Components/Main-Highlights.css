@@ -1,0 +1,71 @@
+.Highlights h2 {
+    font-weight: bolder;
+}
+
+.Highlights-top button {
+    background-color: #F4CE14;
+    color: black;
+    padding: 15px 20px;
+    border: none;
+    border-radius: 16px;
+    font-size: 1rem;
+    font-weight: bold;
+    cursor: pointer;
+    box-shadow: 0 4px 4px rgb(0, 0, 0, 0.2);
+}
+
+.Highlights .Highlights-top {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    gap: 500px;
+    margin: 0 350px;
+}
+
+.Specials-showcase {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    margin: 0 300px;
+}
+
+.Showcase-content {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 0;
+    padding: 50px 0 100px 0;
+}
+
+.Showcase-content img {
+    width: 261px;
+    border-radius: 16px 16px 0 0;
+    margin-bottom: 0;
+    padding-bottom: 0;
+}
+
+.Showcase-text {
+    margin-top: 0;
+    padding-top: 0;
+    max-width: 261px;
+    background-color: lightgrey;
+}
+
+.Showcase-text .name-price {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    gap: 75px;
+    margin: 0 20px 0 20px;
+}
+
+.dish-description {
+    margin: 0 0 75px 20px;
+}
+
+.Showcase-text a {
+    text-decoration: none;
+    color: black;
+    font-weight: bold;
+    margin-left: 20px;
+}
