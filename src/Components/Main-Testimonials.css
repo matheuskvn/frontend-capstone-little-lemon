@@ -1,0 +1,59 @@
+.testimonials {
+    background-color: #495E57;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 50px 0;
+}
+
+.testimonials h2 {
+    color: #f4ce14;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 45px;
+    padding-bottom: 35px;
+}
+
+.rating h4 {
+    margin: 0;
+    padding: 0;
+}
+
+.rating p {
+    margin: 0;
+    padding: 10px 0 0 0;
+}
+
+.rating {
+    background-color: #edefee;
+    width: 206px;
+    height: 160px;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: center;
+    gap: 0.5rem;
+    padding: 0 0 0 20px;
+}
+
+.profiles-group {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 1.5rem;
+}
+
+.profile {
+    display: flex;
+    align-items: center;
+    gap: 1rem;
+    font-size: 25px;
+    margin: 0;
+    padding: 0;
+}
+
+.profile h6 {
+    margin: 0;
+    padding: 0;
+}

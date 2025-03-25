@@ -3,8 +3,13 @@ import restaurantphoto1 from '../Images/restaurantphoto1.png'
 import bruschetta from '../Images/bruchetta.png'
 import greekSalad from '../Images/greek-salad.png'
 import lemonDessert from '../Images/lemon-dessert.png'
+import johnProfile from '../Images/johnProfile.png'
+import janeProfile from '../Images/janeProfile.png'
+import markProfile from '../Images/markProfile.png'
+import abbyProfile from '../Images/abbyProfile.png'
 import './Main-HeroSection.css'
 import './Main-Highlights.css'
+import './Main-Testimonials.css'
 
 const Main = (() => {
     return(
@@ -64,7 +69,41 @@ const Main = (() => {
                 </div>
            </div>
            <div className="testimonials">
-
+                <h2>Testimonials</h2>
+                <div className='profiles-group'>
+                    <div className='rating'>
+                        <h4>Rating</h4>
+                        <div className='profile'>
+                            <img src={janeProfile} alt="John's profile picture." />
+                            <h6>Jane</h6>
+                        </div>
+                        <p>Review</p>
+                    </div>
+                    <div className='rating'>
+                        <h4>Rating</h4>
+                        <div className='profile'>
+                            <img src={johnProfile} alt="John's profile picture." />
+                            <h6>John</h6>
+                        </div>
+                        <p>Review</p>
+                    </div>
+                    <div className='rating'>
+                        <h4>Rating</h4>
+                        <div className='profile'>
+                            <img src={markProfile} alt="John's profile picture." />
+                            <h6>Mark</h6>
+                        </div>
+                        <p>Review</p>
+                    </div>
+                    <div className='rating'>
+                        <h4>Rating</h4>
+                        <div className='profile'>
+                            <img src={abbyProfile} alt="John's profile picture." />
+                            <h6>Abby</h6>
+                        </div>
+                        <p>Review</p>
+                    </div>
+                </div>
            </div>
            <div className="about">
 
