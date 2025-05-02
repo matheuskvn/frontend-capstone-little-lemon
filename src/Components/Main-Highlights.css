@@ -14,7 +14,7 @@
     box-shadow: 0 4px 4px rgb(0, 0, 0, 0.2);
 }
 
-.Highlights .Highlights-top {
+.Highlights-top {
     display: flex;
     align-items: center;
     justify-content: space-around;
@@ -68,4 +68,60 @@
     color: black;
     font-weight: bold;
     margin-left: 20px;
+}
+
+@media (max-width: 768px) {
+    .Showcase-content img {
+        border-radius: 16px 0 0 16px;
+    }
+
+    .Highlights-top {
+        margin: 0;
+        gap: 0;
+    }
+
+    .Specials-showcase {
+        max-width: 768px;
+        flex-direction: column;
+    }
+
+    .Showcase-content {
+        flex-direction: row;
+        margin: 0;
+        padding: 2rem;
+    }
+
+    .Showcase-text {
+        flex-direction: column;
+        width: 300px;
+        height: 170px;
+        gap: 0;
+        margin: 0;
+        padding: 0;
+    }
+
+    .dish-description {
+        margin: 0 0 0 20px ;
+        padding: 0;
+    }
+}
+
+@media (max-width: 450px) {
+    .Highlights {
+        width: 450px;
+    }
+
+    .Showcase-text {
+        font-size: small;
+        width: 200px;
+        height: 98px;
+    }
+
+    .Showcase-content img {
+        width: 150px;
+    }
+
+    .Showcase-content {
+        padding: 1rem 0;
+    }
 }

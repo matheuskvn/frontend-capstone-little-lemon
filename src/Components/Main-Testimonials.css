@@ -57,3 +57,28 @@
     margin: 0;
     padding: 0;
 }
+
+@media (max-width: 768px) {
+    .profiles-group {
+        display: grid;
+        grid-template-columns: repeat(2, 1fr); /* 2 colunas */
+        gap: 20px; /* Espaço entre os itens */
+    }
+}
+
+@media (max-width: 450px) {
+    .testimonials {
+        align-items: flex-start;
+        padding: 0 0 0 20px;
+    }
+
+    .profiles-group {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .rating {
+        width: 380px;
+        height: 150px;
+    }
+}
